@@ -84,24 +84,6 @@ textarea {
     font-size: 16pt;
     color: rgb(102,179,255);
 }
-.restuarantLogo {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-}
-.review {
-    padding: 10pt;
-    max-height: 100px;
-    overflow-y: scroll;
-    width: 40%;
-}
-.column {
-    width: 12%;
-    float: left;
-    overflow: auto;
-    padding: 5pt;
-    text-align: center;
-}
 .headerContent {
     width: 100%;
     float: left;
@@ -129,8 +111,8 @@ textarea {
     padding: 10px;
 }
 /* Mobile Rules (phones and tablets) */
-@media only screen and (max-width: 800px) {
-    .content, .contact, #headshot, .column, .review {
+@media only screen and (max-width: 1000px) {
+    .content, .contact, #headshot {
         width: 100%;
         padding: 0;
     }
